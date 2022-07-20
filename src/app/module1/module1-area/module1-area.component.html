@@ -1,0 +1,7 @@
+<div class="area">
+  <p class="area-name">{{ area.name }}</p>
+  <div class="things">
+    <app-module1-thing *ngFor="let thing of things" [thing]="thing">
+    </app-module1-thing>
+  </div>
+</div>

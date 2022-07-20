@@ -1,0 +1,7 @@
+<div class="main">
+  <app-module2-area
+    *ngFor="let area of areas$ | async"
+    [area]="area"
+    [things]="things$ | async | thingsByAreaId: area.areaId">
+  </app-module2-area>
+</div>

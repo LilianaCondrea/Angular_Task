@@ -1,0 +1,16 @@
+.main{
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  button{
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: #f4e700;
+    border: none;
+    border-radius: 10px;
+    &:hover{
+      background-color: #ffa600;
+    }
+  }
+}

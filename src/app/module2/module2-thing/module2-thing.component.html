@@ -1,0 +1,8 @@
+<div class="thing">
+  <div
+    [class.statusOpen]="!thing.joinedWith && thing.status === 'open'"
+    [class.statusClose]="!thing.joinedWith && thing.status === 'closed'"
+    [class.statusJoined]="thing.joinedWith"></div>
+  <div class="title">{{ thing.sku }}</div>
+  <div class="id">{{ thing.sku }}</div>
+</div>

@@ -1,0 +1,21 @@
+.area{
+  width: 95%;
+  padding: 8px;
+  margin: 0 auto 10px;
+  h2{
+    font-weight: 200;
+  }
+  span{
+    padding: 5px;
+    background-color: blueviolet;
+  }
+  .things{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .area-name{
+    font-size: 1.25rem;
+    padding-left: 14px;
+    margin-bottom: 7px;
+  }
+}

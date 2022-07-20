@@ -1,0 +1,9 @@
+<div class="main" *ngIf="areas">
+  <ng-container *ngIf="things">
+    <app-module1-area
+      *ngFor="let area of areas"
+      [area]="area"
+      [things]="things | thingsByAreaId: area.areaId">
+    </app-module1-area>
+  </ng-container>
+</div>
